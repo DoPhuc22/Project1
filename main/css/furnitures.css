@@ -1,0 +1,36 @@
+#furniture-detail-container {
+    display: flex;
+    height: 605px;
+    width: 81%;
+    margin: auto;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border-radius: 16px;
+}
+
+#furniture-img {
+    width: 60%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#furniture-info {
+    width: 30%;
+}
+
+/* buy btn */
+#buy-now-btn {
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 12px 16px;
+}
+
+#add-to-cart-btn {
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 12px 16px;
+    color: white;
+}
